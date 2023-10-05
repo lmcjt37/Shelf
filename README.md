@@ -6,6 +6,8 @@ This will initially be an educational repo for [Hacktoberefest 2023](https://hac
 
 To contribute, simply follow the best practices and guidelines provided by [hacktoberfest](https://hacktoberfest.com/participation/#beginner-resources)
 
+Additionally, because the project is mobile focused and built using [Expo](https://expo.dev/), please make sure to refer to the docs when picking up any tickets to help steer you in the right direction.
+
 This is a light hearted project, there are no strict rules to follow for contribution. Just play nice and support each other!
 
 Happy Coding!

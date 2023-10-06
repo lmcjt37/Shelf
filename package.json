@@ -3,13 +3,9 @@
   "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "lint": "eslint ."
   },
   "dependencies": {
-    "@types/react": "~18.2.14",
     "expo": "~49.0.13",
     "expo-constants": "~14.4.2",
     "expo-linking": "~5.0.2",
@@ -19,16 +15,18 @@
     "react-native": "0.72.5",
     "react-native-gesture-handler": "~2.12.0",
     "react-native-safe-area-context": "4.6.3",
-    "react-native-screens": "~3.22.0",
-    "typescript": "^5.1.3"
-  },
-  "scripts": {
-    "lint": "eslint ."
+    "react-native-screens": "~3.22.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
+    "@types/react": "~18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
     "eslint": "^8.50.0",
-    "eslint-config-universe": "^12.0.0"
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-config-universe": "^12.0.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.1.3"
   },
   "private": true
 }
